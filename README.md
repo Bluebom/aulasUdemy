@@ -1,2 +1,1 @@
-# aulasUdemy
-Início das aulas na udemy
+# Início da aulas de JavaScript
