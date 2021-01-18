@@ -22,4 +22,16 @@ console.log('TIPO: object');
 let fourthLog = {oi: 'hi'}; //or []
 console.log(fourthLog);
 console.log(typeof(fourthLog));
+// Tipo: undefined
+console.log('//////////////');
+console.log('TIPO: undefined');
+let fifthLog;
+console.log(fifthLog);
+console.log(typeof(fifthLog));
+// Tipo: null
+console.log('//////////////');
+console.log('TIPO: nulo');
+const sixthLog = null;
+console.log(sixthLog);
+console.log(typeof(sixthLog));
 
