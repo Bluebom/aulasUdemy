@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content='Franklin Henrique'>
+    <meta name="keywords" content="palavras-chaves,separadas,por,virgula">
+    <meta name="description" content="Descrição do seu site..."> 
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+            text-decoration: none;
+        }
+        body{
+            height: 100%;
+        }
+        .wrap{
+            width: 17rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: .5rem;
+            padding: 1rem;
+        }
+
+        label{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: .1rem;
+        }
+
+        div.btn{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form class="wrap">
+        <label for="name"><span>Nome: </span><input type="text" name="nome" class="nome" id="name"></label>
+        <label for="surname"><span>Sobrenome: </span><input type="text" name="sobre" class="sobrenome" id="surname"></label>
+        <label for="weight"><span>Peso: </span><input type="text" name="peso" class="peso" id="weight"></label>
+        <label for="height"><span>Altura: </span><input type="text" name="altura" class="altura" id="height"></label>
+        <div class="btn"><input type="submit" value="Enviar" id="btn"></div>
+    </form>
+    <div class="result"></div>
+</body>
+<script src="./exec/01.js"></script>
+</html>
