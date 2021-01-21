@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content='Franklin Henrique'>
+    <meta name="keywords" content="palavras-chaves,separadas,por,virgula">
+    <meta name="description" content="Descrição do seu site...">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <div class="wrapper">
+            <div class="wrap">
+                <h2>IMC</h2>
+                <h2>Resultado</h2>
+            </div>
+            <div class="wrap">
+                <span class="left">Menos do que 18,5</span>
+                <span class="right">Abaixo do peso</span>
+            </div>
+            <div class="wrap">
+                <span class="left">Entre 18,5 e 24,9</span>
+                <span class="right">Peso normal</span>
+            </div>
+            <div class="wrap">
+                <span class="left">Entre 25 e 29,9</span>
+                <span class="right">Sobrepeso</span>
+            </div>
+            <div class="wrap">
+                <span class="left">Entre 30 e 34,9</span>
+                <span class="right">Obesidade grau 1</span>
+            </div>
+            <div class="wrap">
+                <span class="left">Entre 35 e 39,9</span>
+                <span class="right">Obesidade grau 2</span>
+            </div>
+            <div class="wrap">
+                <span class="left">40 ou mais</span>
+                <span class="right">Obesidade grau 3</span>
+            </div>
+        </div>
+        <!--Wrapper-->
+        <h1>Calcule seu IMC</h1>
+        <section class="try">
+            <label for="weight">
+                <p>Peso: </p>
+                <input type="number" name="peso" id="weight" step=".01" min="10" max="500">
+            </label>
+            <label for="height">
+                <p>Altura</p>
+                <input type="number" name="altura" id="height" step=".01" min="0" max="3">
+            </label>
+
+            <button class="btn">Calcular</button>
+        </section>
+        <div id="result">
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

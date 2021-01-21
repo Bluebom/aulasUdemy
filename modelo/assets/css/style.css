@@ -30,7 +30,7 @@ body, html{
     border-radius: .7rem;
 }
 
-form input, form label, form button{
+/* form input, form label, form button{
     display: block;
     width: 100%;
     margin-bottom: 1rem;
@@ -60,4 +60,4 @@ form button{
 form button:hover{
     background-color: var(--secundary-color);
 }
-
+ */

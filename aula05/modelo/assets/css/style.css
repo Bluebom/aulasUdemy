@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+    --prymary-font: 'Open Sans', sans-serif;
+    --prymary-color: rgb(4, 106, 134);
+    --secundary-color: rgb(22, 99, 112);
+}
+
+body, html {
+    height: 100%;
+    background-color: var(--prymary-color);
+    font-family: var(--prymary-font);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 3.1rem auto;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: .7rem;
+}
+
+.container .wrapper {
+    padding: 1rem;
+    width: 100%;
+}
+
+.container .wrapper .wrap {
+    display: grid;
+    gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .wrapper p {
+    font-weight: lighter;
+}
+
+.container section.try {
+    padding: 1rem;
+    width: 100%;
+}
+
+.container section.try p, .container section.try input, .btn {
+    width: 100%;
+}
+
+.container section.try input {
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: var(--prymary-color);
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: var(--prymary-font);
+}
+
+.btn:hover {
+    background-color: var(--secundary-color);
+}
+
+.result{
+    border: 1px solid #000;
+    border-radius: 1rem;
+    width: 100%;
+    padding: .3rem;
+}
+
+.result .imc {
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.result .imc h3 {
+    min-width: 13rem;
+}
