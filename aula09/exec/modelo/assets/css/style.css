@@ -48,6 +48,7 @@ body, html{
 .container p .input_task{
     padding: .4rem;
     box-shadow: .2rem .1rem .1rem .1px black;
+    font-size: 1.2rem;
 }
 
 .container ul{
@@ -57,10 +58,13 @@ body, html{
 }
 
 .container ul li{
+    line-height: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    padding: .5rem;
+    gap: .4rem;
+    font-size: 1rem;
 }
 
 .btn {
