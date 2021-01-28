@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+:root{
+    --prymary-font: 'Open Sans', sans-serif;
+    --prymary-color: rgb(4, 106, 134);
+    --secundary-color: rgb(22, 99, 112);
+}
+
+body, html{
+    height: 100%;
+    background-color: var(--prymary-color);
+    font-family: var(--prymary-font);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 3.1rem auto;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: .7rem;
+    animation: blink .7s  infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+@keyframes blink {
+    0% {border: .5rem dashed black;}
+    50% {border: .5rem dashed rgba(0, 0, 0, 0);}
+    100% {border: .5rem dashed rgba(0, 0, 0, 0.918)}
+}
+.calculadora{
+    width: 25rem;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    margin-bottom: .5rem;
+}
+
+.btn {
+    width: 100%;
+    height: 3rem;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+.btn:hover {
+    background-color: #9d9d9d;
+}
