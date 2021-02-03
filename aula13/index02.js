@@ -8,13 +8,15 @@ const pessoas = [
     { nome: 'Maria', idade: 23 },
     { nome: 'Eduardo', idade: 55 },
     { nome: 'Franklin', idade: 21 },
+    { nome: 'Bruna', idade: 21},
+    { nome: 'Taís', idade: 28},
     { nome: 'Rosana', idade: 40 }
 ];
 
 const pessoasFiltradas = pessoas.filter(valor => {
-    // return valor.nome.length >= 5;
+    return valor.nome.length >= 5;
     // return valor.idade > 50;
-    return valor.nome.toLowerCase().endsWith('a');
+    // return valor.nome.toLowerCase().endsWith('a');
 });
 
 console.log(pessoasFiltradas)
