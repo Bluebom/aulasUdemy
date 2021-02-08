@@ -20,4 +20,4 @@ const maisVelha = pessoas.reduce((sum, num) => {
     else return num
 });
 
-console.log(maisVelha)
+console.log(pessoas)
