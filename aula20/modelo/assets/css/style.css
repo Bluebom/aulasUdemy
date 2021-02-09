@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+:root{
+    --prymary-font: 'Open Sans', sans-serif;
+    --prymary-color: rgb(4, 106, 134);
+    --secundary-color: rgb(4, 106, 125);
+}
+
+body, html{
+    height: 100%;
+    background-color: var(--prymary-color);
+    font-family: var(--prymary-font);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 3.1rem auto;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: .7rem;
+}
+
+.container h1 {
+    padding: 1rem 0;
+}
+
+.container ul {
+    padding: 0 0 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.container form p {
+    font-size: 1.3rem;
+    color: #333;
+    padding-left: .2rem;
+} 
+
+.w100{
+    width: 100%;
+    padding: .5rem;
+    border: .1rem solid #ccc;
+    margin: .5rem 0;
+}
+
+.btn{
+    margin-top: .5rem;
+    display: block;
+    width: 100%;
+    background-color: var(--prymary-color);
+    color: #FFF;
+    font-size: 1.4rem;
+    padding: .2rem;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: var(--secundary-color);
+}
+
+.error-text{
+    margin-top: -20px;
+    font-size: .5rem;
+    color: red;
+}
+
+

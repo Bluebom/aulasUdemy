@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content='Franklin Henrique'>
+    <meta name="keywords" content="palavras-chaves,separadas,por,virgula">
+    <meta name="description" content="Descrição do seu site...">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazia</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <form action="#" method="POST" class="formulario">
+            <label for="name">
+                <p>Nome:</p>
+                <input type="text" name="nome" class="w100 name" >
+            </label>
+            <label for="surname">
+                <p>Sobrenome:</p>
+                <input type="text" name="sobrenome" class="w100 surname" >
+            </label>
+            <label for="cpf">
+                <p>CPF:</p>
+                <input type="text" name="cpf" class="w100 cpf" >
+            </label>
+            <label for="user">
+                <p>Usuário:</p>
+                <input type="text" name="usuario" class="w100 user" >
+            </label>
+            <label for="password">
+                <p>Senha:</p>
+                <input type="password" name="senha" class="w100 password" >
+            </label>
+            <label for="re-password">
+                <p>Repetir Senha:</p>
+                <input type="password" name="senha" class="w100 re-password" >
+            </label>
+
+            <button class="btn"> Enviar </button>
+        </form>
+    </section>
+    <script src="./assets/js/validaCPF.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
