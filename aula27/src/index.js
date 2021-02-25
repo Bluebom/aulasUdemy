@@ -1,3 +1,4 @@
-const hey = 'Olá';
-const psiu = 'Oi';
-console.log(`she said ${hey} so he answer ${psiu}`)
+import Abacate, { name, surname } from './module1';
+
+const nome = new Abacate(name, surname);
+console.log(nome)

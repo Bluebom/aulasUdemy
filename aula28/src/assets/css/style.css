@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+:root{
+    --prymary-font: 'Open Sans', sans-serif;
+    --prymary-color: rgb(4, 106, 134);
+    --secundary-color: rgb(22, 99, 112);
+}
+
+body, html{
+    height: 100%;
+    background-color: var(--prymary-color);
+    font-family: var(--prymary-font);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 25rem;
+    min-height: 15rem;
+    margin: 3.1rem auto;
+    background-color: #ffffff;
+    padding: 3rem 1rem;
+    border-radius: .7rem;
+}
+
+.container h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.cpfArea{
+    max-width: 72%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;    
+    margin: 1rem auto;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {border-left: .3rem solid #FFF;}
+    100% {border-left: .3rem solid black;}
+}
+
+.btn{
+    margin-top: .5rem;
+    display: block;
+    width: 100%;
+    background-color: var(--prymary-color);
+    color: #FFF;
+    font-size: 1.4rem;
+    padding: .2rem;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: var(--secundary-color);
+}
+
+
+.cpf_gerado {
+    font-size: 2rem;
+    color: var(--secundary-color);
+    font-weight: bold;
+}

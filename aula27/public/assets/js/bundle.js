@@ -1,2 +1,2 @@
-console.log("she said ".concat("Olá"," so he answer ").concat("Oi"));
+(()=>{"use strict";var n=new function n(o,i){!function(n,o){if(!(n instanceof o))throw new TypeError("Cannot call a class as a function")}(this,n),this.nome=o,this.sobrenome=i}("Luiz","Miranda");console.log(n)})();
 //# sourceMappingURL=bundle.js.map
